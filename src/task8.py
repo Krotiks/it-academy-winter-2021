@@ -60,4 +60,3 @@ if n >= 1 and n <= 100:
             print("Weird")
         else:
             print("Not Weird")
-            
