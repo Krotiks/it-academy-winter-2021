@@ -9,4 +9,3 @@ if(number == rev):
     print("Это палиндром!")
 else:
     print("Это не палиндром!")
-    
