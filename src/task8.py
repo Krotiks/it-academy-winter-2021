@@ -7,8 +7,6 @@ if __name__ == '__main__':
     print(first_word("Hello world"))
 
 
-
-
 def is_acceptable_password(password: str) -> bool:
     return len(password) > 6
 
@@ -16,7 +14,6 @@ def is_acceptable_password(password: str) -> bool:
 if __name__ == '__main__':
     print("Example:")
     print(is_acceptable_password('short'))
-
 
 
 def number_length(number: int) -> int:
@@ -41,8 +38,6 @@ if __name__ == '__main__':
     print(is_all_upper('ALL UPPER'))
 
 
-
-
 def max_digit(number: int) -> int:
     m = 0
     for n in str(number):
@@ -56,8 +51,6 @@ if __name__ == '__main__':
     print(max_digit(35))
 
 
-
-
 n = int(input())
 if n >= 1 and n <= 100:
     if n % 2 != 0:
@@ -67,3 +60,4 @@ if n >= 1 and n <= 100:
             print("Weird")
         else:
             print("Not Weird")
+            
